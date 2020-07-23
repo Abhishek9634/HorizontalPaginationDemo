@@ -13,6 +13,7 @@
 		9F2FC01924BEB3520068AEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2FC01824BEB3520068AEFC /* Assets.xcassets */; };
 		9F2FC01C24BEB3520068AEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2FC01A24BEB3520068AEFC /* LaunchScreen.storyboard */; };
 		9F2FC02424BEB47B0068AEFC /* HorizontalCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2FC02324BEB47B0068AEFC /* HorizontalCollectionCell.swift */; };
+		9FAD7FF224C9E8C500352549 /* HorizontalPaginationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD7FF124C9E8C500352549 /* HorizontalPaginationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F2FC01B24BEB3520068AEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F2FC01D24BEB3520068AEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2FC02324BEB47B0068AEFC /* HorizontalCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionCell.swift; sourceTree = "<group>"; };
+		9FAD7FF124C9E8C500352549 /* HorizontalPaginationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalPaginationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9F2FC00E24BEB34F0068AEFC /* HorizontalPagination */ = {
 			isa = PBXGroup;
 			children = (
+				9FAD7FF124C9E8C500352549 /* HorizontalPaginationManager.swift */,
 				9F2FC02324BEB47B0068AEFC /* HorizontalCollectionCell.swift */,
 				9F2FC00F24BEB34F0068AEFC /* AppDelegate.swift */,
 				9F2FC01324BEB34F0068AEFC /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2FC01424BEB34F0068AEFC /* ViewController.swift in Sources */,
+				9FAD7FF224C9E8C500352549 /* HorizontalPaginationManager.swift in Sources */,
 				9F2FC01024BEB34F0068AEFC /* AppDelegate.swift in Sources */,
 				9F2FC02424BEB47B0068AEFC /* HorizontalCollectionCell.swift in Sources */,
 			);
