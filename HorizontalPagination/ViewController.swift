@@ -65,11 +65,11 @@ extension HorizontalPaginationViewController: UICollectionViewDelegate, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView,
-                         layout collectionViewLayout: UICollectionViewLayout,
-                         sizeForItemAt indexPath: IndexPath) -> CGSize {
+                        layout collectionViewLayout: UICollectionViewLayout,
+                        sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.bounds.width,
-                       height: collectionView.bounds.height)
-     }
+                      height: collectionView.bounds.height)
+    }
     
 }
 
