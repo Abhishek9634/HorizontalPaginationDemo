@@ -35,8 +35,8 @@ class HorizontalPaginationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupCollectionView()
-//        self.setupPagination()
-//        self.fetchItems()
+        self.setupPagination()
+        self.fetchItems()
     }
     
 }
@@ -67,8 +67,7 @@ extension HorizontalPaginationViewController: UICollectionViewDelegate, UICollec
     func collectionView(_ collectionView: UICollectionView,
                          layout collectionViewLayout: UICollectionViewLayout,
                          sizeForItemAt indexPath: IndexPath) -> CGSize {
-//         return CGSize(width: collectionView.bounds.width,
-        return CGSize(width: self.view.bounds.width,
+        return CGSize(width: collectionView.bounds.width,
                        height: collectionView.bounds.height)
      }
     
